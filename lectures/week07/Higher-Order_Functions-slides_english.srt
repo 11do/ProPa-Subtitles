@@ -97,6 +97,7 @@ cases, so, some things that you will actually
 use in the exercises, or that are generally
 important for programming in Haskell.
 
+109 # slide
 00:01:56,439 --> 00:02:04,520
 As I have just said, so far, we have mainly
 dealt with first-order functions.
@@ -439,6 +440,7 @@ here, I almost stumbled about this.
 Of course, we also have things that are not
 functions.
 
+110 # slide
 00:08:05,369 --> 00:08:11,689
 So, here is the type, again, of 'animationOf'.
 
@@ -531,6 +533,7 @@ numbers, but the same kind of difference between
 something like this and something like this
 will appear.
 
+11 # slide
 00:09:52,080 --> 00:10:02,500
 So, this is the example that I want to use
 for this discussion: a simple function you
@@ -686,6 +689,7 @@ of course.
 The first one is just a standard function
 kind, of which you have already seen examples.
 
+112 # slide
 00:12:44,190 --> 00:12:56,600
 So, let's consider this first example: functions
 of this simple first-order type.
@@ -991,6 +995,7 @@ case h, as a mathematical function: applying
 00:18:19,570 --> 00:18:26,660
 it to values and getting other values out.
 
+113 # slide
 00:18:26,660 --> 00:18:30,440
 Then, a reasonable question at this point
 is:
@@ -1147,6 +1152,7 @@ other function.
 They can be stored in a data structure, for
 example.
 
+114 # slide
 00:21:19,200 --> 00:21:30,240
 So, let us see and let's use, from the slide
 before, the function "f h" is "h is applied to
@@ -1296,6 +1302,7 @@ argument.
 Which happens here with the h, when it is
 applied to 7.
 
+115 # slide
 00:24:52,210 --> 00:25:04,500
 One way to
 get a better grasp of this partial application
@@ -1487,6 +1494,7 @@ second part of "+" is still missing.
 And I will, again, discuss this on the next
 slide with a few notes.
 
+116 # slide
 00:28:54,500 --> 00:28:57,900
 So, let's briefly talk about operator syntax.
 
@@ -1726,6 +1734,7 @@ for an argument x and then computing 5 – x.
 And the same way for all the other section
 syntax cases above.
 
+117 # slide
 00:35:16,520 --> 00:35:23,380
 Apart from the special syntax cases using
 operators, we can also just syntactically
@@ -1866,6 +1875,7 @@ then write arbitrary expressions inside this
 00:37:50,230 --> 00:38:01,840
 body, and create arbitrary anonymous functions.
 
+118 # slide
 00:38:01,840 --> 00:38:08,150
 And actually, this lambda-abstraction syntax
 is also another point where we can get a clearer
@@ -1998,6 +2008,7 @@ because they capture the same mathematical
 00:40:25,010 --> 00:40:27,770
 concept of function.
 
+119 # slide
 00:40:27,770 --> 00:40:33,050
 This video is now getting really long.
 
